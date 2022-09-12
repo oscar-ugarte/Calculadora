@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body
+{
+    font-family: 'Roboto Slab','Times New Roman', Times, serif;
+}
+
+h1
+{
+    color: #091F92;
+    text-shadow: 2px 2px 2px #0E4BEF;
+}
+
+.fondo-azul
+{
+    background-color: #0E4BEF;
+}
+
+#calculadora
+{
+    background-color: #191919;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px #2A3223;
+}
+
+header, footer
+{
+    background-color: #1F75FE;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*Media query para que se vea bien en pantallas chicas*/
+@media screen and (min-width:375px) and (max-width:768px) 
+{
+    #calculadora
+    {
+        width: 80%;
+    }
+}
